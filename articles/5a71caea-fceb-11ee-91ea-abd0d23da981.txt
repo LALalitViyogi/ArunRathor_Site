@@ -81,7 +81,7 @@
                 <div class="timeline bg-blue-900 text-white p-6 shadow-lg">
                     <ul>
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">1984</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">1984</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">Establishment of ADA</h3>
                                 <p class="text-blue-200">Government of India established Aeronautical Development Agency (ADA) under the aegis of Defence Research and Development Organisation (DRDO) to manage the LCA programme. The ADA was entrusted with the design and development of LCA while HAL was chosen as the principal contractor.</p>
@@ -89,7 +89,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">1990</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">1990</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">Design of the Tejas Aircraft Finalised</h3>
                                 <p class="text-blue-200">The design of the Tejas was finalised in 1990 as a small tailless compound delta wing design with relaxed static stability. To provide enhanced manoeuvrability it would be a control configured vehicle incorporating a digital FBW flight control system.</p>
@@ -97,7 +97,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">1992</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">1992</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">CLAW Team by  National Aerospace Laboratories</h3>
                                 <p class="text-blue-200">The CLAW team had to completed the design and integration of the flight control laws with the flight control system software, with the aid of an Iron Bird test rig.</p>
@@ -105,7 +105,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">2001</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2001</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">First Flight of Prototype TD-1</h3>
                                 <p class="text-blue-200">On 4 January 2001, on its maiden flight, the TD-1 successfully flew with an indigenous quadruplex digital FBW flight control system.</p>
@@ -113,7 +113,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">2011</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2011</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">Initial Operation Clearance Granted</h3>
                                 <p class="text-blue-200">The Tejas was awarded initial operational clearance-I (IOC-I) in January 2011. To ease up the process of FOC, an interim IOC-II was issued to Tejas in December 2013. </p>
@@ -121,7 +121,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">2016</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2016</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">Official Induction of IOC-II (FOC) cleared Tejas in Indian Airforce </h3>
                                 <p class="text-blue-200">The first squadron, consisting of Tejas in IOC-II configuration, became operational in 2016. The No. 45 Squadron IAF based at Sulur Air Force Station, Coimbatore was the first to have their MiG-21s replaced by Tejas aircraft at the base.</p>
@@ -129,7 +129,7 @@
                         </li>
                         <!-- Add more list items here -->
                         <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
-                            <span class="mx-4 inline-block bg-blue-500 rounded-full py-1 px-3 text-sm">2019</span>
+                            <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2019</span>
                             <div class=" mx-4 content mt-2">
                                 <h3 class="text-blue-300 text-lg">Final Operation Clearance Granted for Production</h3>
                                 <p class="text-blue-200">On 20 February 2019, during the Aero India 2019 show, FOC was formally awarded to the Tejas. The second Tejas squadron No.18 Flying Bullets was formed at Sulur Air Force Station on 27 May 2020 with the first four serial production FOC aircraft.</p>
