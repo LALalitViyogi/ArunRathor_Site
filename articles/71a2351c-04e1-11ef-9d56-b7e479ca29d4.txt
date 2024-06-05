@@ -35,7 +35,7 @@
             Section for setting main image as thumbnail
          -->
          <div class="mx-4 my-4">
-            <img src="https://www.israeldefense.co.il/sites/default/files/styles/full_article_image/public/2022-05/ramage.png?itok=wOxkR9SO" class="h-full w-full object-cover">
+            <img src="https://elbitsystems.com/media/1920X1070-Rampage-1-1.jpg" class="h-full w-full object-cover">
          </div>
 
         
