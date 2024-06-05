@@ -1,0 +1,204 @@
+<div class="flex justify-center">
+    <div class="w-10/12">
+        <!-- <div class="mx-4">
+            <p>asnd</p>
+        </div>
+        <p>asnd--2</p> -->
+
+        <!-- 
+            This is Top Heading Section for article ...
+        -->
+        <hr class="border-t-2 border-gray-800">
+        <div class="my-2">
+            <h1 class="text-4xl text-center">
+                Rampage Missile: The Game Changer in Modern Warfare
+            </h1>
+        </div>
+        <hr class="border-t-2 border-gray-800">
+
+         <!-- 
+            Author Information
+            Name : ( Author Name )
+            Post : ( if Any )
+          -->
+          <div class="text-xl my-2">
+            <h5>
+                Author : <span>Viyogi Enterprises</span>
+            </h5>
+            <h5>
+                Support : <span>Nature Freedom Foundation</span>
+            </h5>
+
+          </div>
+
+        <!-- 
+            Section for setting main image as thumbnail
+         -->
+         <div class="mx-4 my-4">
+            <img src="https://www.israeldefense.co.il/sites/default/files/styles/full_article_image/public/2022-05/ramage.png?itok=wOxkR9SO" class="h-full w-full object-cover">
+         </div>
+
+        
+
+         <!-- 
+            introductory Passage
+          -->
+          <div class="my-4">
+            <p class="text-lg text-justify">
+                The Rampage missile is a long-range air-to-ground missile developed by Israel Aerospace Industries (IAI) and Israel Military Industries (IMI). 
+                This advanced weapon is designed to engage a variety of targets, including air defense systems, command and control centers, and logistics facilities.
+                The Rampage missile's combination of speed, range, and precision makes it a formidable asset in modern combat, significantly enhancing the operational capabilities 
+                of the armed forces equipped with it.
+            </p>
+          </div>
+          <br>
+          <div class="my-8">
+            <h2 class="text-2xl font-bold">
+                Development and Features: From Concept to Deployment
+            </h2>
+          </div>
+          <div>
+            <p class="text-lg text-justify my-1">
+                The Rampage missile was developed as a joint project between IAI and IMI to create a long-range, precise, and cost-effective weapon system.
+                The missile leverages advanced navigation systems and a robust warhead to ensure maximum effectiveness against a wide range of high-value targets.
+                Its supersonic speed and long-range capabilities allow it to be launched from a safe distance, reducing the risk to the launching platform and increasing survivability.
+            </p>
+            <p class="text-lg text-justify my-2">
+                One of the key features of the Rampage missile is its ability to penetrate sophisticated air defense systems, making it ideal for preemptive strikes in hostile environments.
+                Its precision guidance system ensures accurate target engagement, minimizing collateral damage. The missile's modular design also allows for various payload configurations,
+                enhancing its versatility in different combat scenarios.
+            </p>
+        </div>
+        <div class="my-4">
+            <h3 class="text-2xl font-bold">Key Milestones in the Rampage Missile Program</h3>
+        </div>
+        <div class="my-8">
+            <div class="timeline bg-blue-900 text-white p-6 shadow-lg">
+                <ul>
+                    <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
+                        <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2014</span>
+                        <div class=" mx-4 content mt-2">
+                            <h3 class="text-blue-300 text-lg">Program Inception</h3>
+                            <p class="text-blue-200">The Rampage missile program was initiated as a collaboration between IAI and IMI, aimed at developing a new long-range, precision-guided weapon.</p>
+                        </div>
+                    </li>
+                    <!-- Add more list items here -->
+                    <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
+                        <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2018</span>
+                        <div class=" mx-4 content mt-2">
+                            <h3 class="text-blue-300 text-lg">First Public Display</h3>
+                            <p class="text-blue-200">The Rampage missile was publicly unveiled at the Eurosatory defense exhibition in Paris, showcasing its capabilities to the international defense community.</p>
+                        </div>
+                    </li>
+                    <!-- Add more list items here -->
+                    <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
+                        <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2019</span>
+                        <div class=" mx-4 content mt-2">
+                            <h3 class="text-blue-300 text-lg">Initial Operational Capability</h3>
+                            <p class="text-blue-200">The Israeli Air Force declared the Rampage missile operational, marking its readiness for deployment in combat operations.</p>
+                        </div>
+                    </li>
+                    <!-- Add more list items here -->
+                    <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
+                        <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2021</span>
+                        <div class=" mx-4 content mt-2">
+                            <h3 class="text-blue-300 text-lg">Export Contracts</h3>
+                            <p class="text-blue-200">The first export contracts for the Rampage missile were signed, expanding its deployment to allied nations and enhancing their military capabilities.</p>
+                        </div>
+                    </li>
+                    <!-- Add more list items here -->
+                    <li class="relative py-4 cursor-pointer transition duration-500 hover:bg-blue-800">
+                        <span class="mx-4 inline-block bg-blue-600 rounded-full py-1 px-3 text-sm">2022</span>
+                        <div class=" mx-4 content mt-2">
+                            <h3 class="text-blue-300 text-lg">Further Enhancements</h3>
+                            <p class="text-blue-200">The Rampage missile underwent further enhancements to improve its range, accuracy, and payload capacity, making it even more effective in diverse combat scenarios.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="my-4">
+          <div class="my-8">
+            <h3 class="text-2xl ">
+              Operational Capabilities of the Rampage Missile
+            </h3>
+            <p class="text-lg text-justify">
+              The Rampage missile is designed to significantly boost the strike capabilities of modern air forces. Its ability to engage a variety of high-value targets with precision and speed
+              makes it a valuable asset in both offensive and defensive operations. The missile's advanced guidance systems and modular warhead options ensure that it can be tailored to specific mission requirements,
+              providing a versatile and effective solution for modern warfare.
+            </p>
+            <p class="text-lg text-justify">
+              The Rampage's long-range and high-speed capabilities allow it to be launched from a safe distance, ensuring the safety of the launching platform. This is particularly important in modern combat scenarios
+              where air defenses are increasingly sophisticated and capable of engaging targets at long ranges. The Rampage missile's ability to penetrate these defenses and deliver its payload accurately
+              makes it a critical component of any modern air force's arsenal.
+            </p>
+            <p class="text-lg text-justify">
+              The missile's versatility is further enhanced by its modular design, which allows it to be configured for various types of missions. Whether it is used to take out enemy air defenses,
+              command and control centers, or logistical hubs, the Rampage missile is capable of delivering precise and devastating strikes, disrupting the enemy's ability to conduct operations effectively.
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li class="my-2">
+                <h3 class="text-xl font-bold">
+                  Guidance and Navigation
+                </h3>
+                <p class="text-justify">
+                  The Rampage missile is equipped with a state-of-the-art guidance system that combines GPS and inertial navigation systems (INS) to ensure accurate targeting. 
+                  This dual-mode guidance system allows the missile to maintain precision even in GPS-denied environments, enhancing its reliability in combat situations.
+                  The integration of advanced navigation technologies ensures that the Rampage missile can accurately engage its targets, even in challenging conditions.
+                </p>
+              </li>
+              <li class="my-2">
+                <h3 class="text-xl font-bold">
+                  Warhead and Payload Options
+                </h3>
+                <p class="text-justify">
+                  The missile features a modular warhead design, allowing for various payload configurations depending on the mission requirements. 
+                  This flexibility enables it to engage a wide range of targets, from fortified bunkers to mobile missile launchers, making it an adaptable tool for diverse combat scenarios.
+                  The warhead's design ensures maximum effectiveness, delivering the desired level of destruction to the intended target.
+                </p>
+              </li>
+              <li class="my-2">
+                <h3 class="text-xl font-bold">
+                  Range and Speed
+                </h3>
+                <p class="text-justify">
+                  With a range of over 150 kilometers and supersonic speed, the Rampage missile allows aircraft to launch from a safe distance, reducing the risk of exposure to enemy air defenses.
+                  This capability ensures that the launching platform can remain outside the range of most surface-to-air missile systems, increasing its survivability in hostile environments.
+                  The combination of long-range and high-speed capabilities makes the Rampage missile a formidable weapon in any air force's arsenal.
+                </p>
+              </li>
+              <li class="my-2">
+                <h3 class="text-xl font-bold">
+                  Versatility in Combat Scenarios
+                </h3>
+                <p class="text-justify">
+                  The Rampage missile's modular design and advanced features make it highly versatile in various combat scenarios. It can be used for strategic strikes against high-value targets,
+                  close air support for ground troops, or preemptive attacks on enemy infrastructure. This versatility ensures that the Rampage missile can adapt to the changing dynamics of the battlefield,
+                  providing a flexible and effective solution for modern military operations.
+                </p>
+              </li>
+              <li class="my-2">
+                <h3 class="text-xl font-bold">
+                  Integration with Modern Air Platforms
+                </h3>
+                <p class="text-justify">
+                  The Rampage missile is designed to be compatible with a wide range of modern air platforms, including fighter jets, bombers, and unmanned aerial vehicles (UAVs).
+                  This compatibility ensures that the missile can be integrated into existing military inventories, enhancing the operational capabilities of the armed forces.
+                  The ability to deploy the Rampage missile from various platforms increases its strategic value, providing a robust and adaptable solution for air-to-ground missions.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>     
+        <hr class="border-t-2 my-4 bg-blue-900">     
+      <div>
+        <div class="flex justify-center">
+          <img class="rounded-lg w-auto h-96" src="https://www.defenseworld.net/uploads//news_images//rampage_missile_at_eurosatory2018.jpg">
+        </div>
+      </div>
+      <hr class="border-t-2 my-4 bg-blue-900">  
+        
+</div>
+
