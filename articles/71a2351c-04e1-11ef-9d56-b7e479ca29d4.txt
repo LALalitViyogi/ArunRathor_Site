@@ -35,7 +35,7 @@
             Section for setting main image as thumbnail
          -->
          <div class="mx-4 my-4">
-            <img src="https://elbitsystems.com/media/1920X1070-Rampage-1-1.jpg" class="h-full w-full object-cover">
+            <img src="https://www.globalsecurity.org/military/world/israel/images/rampage-image02.jpg" class="h-full w-full object-cover">
          </div>
 
         
@@ -195,7 +195,7 @@
         <hr class="border-t-2 my-4 bg-blue-900">     
       <div>
         <div class="flex justify-center">
-          <img class="rounded-lg w-auto h-96" src="https://www.defenseworld.net/uploads//news_images//rampage_missile_at_eurosatory2018.jpg">
+          <img class="rounded-lg w-auto h-96" src="https://elbitsystems.com/media/1920X1070-Rampage-1-1.jpg">
         </div>
       </div>
       <hr class="border-t-2 my-4 bg-blue-900">  
