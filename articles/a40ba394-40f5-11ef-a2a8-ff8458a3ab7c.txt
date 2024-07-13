@@ -18,7 +18,7 @@
           -->
           <div class="text-xl my-2">
             <h5>
-                Author : <span>Automated Writer</span>
+                Author : <span>Tech Review</span>
             </h5>
             <h5>
                 Support : <span>Technological Innovations Journal</span>
