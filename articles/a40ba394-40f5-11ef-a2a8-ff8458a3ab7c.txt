@@ -29,7 +29,7 @@
             Section for setting main image as thumbnail
          -->
          <div class="mx-4 my-4">
-            <img src="https://example.com/drone-warfare.jpg" class="h-full w-full object-cover" alt="Drones in Warfare">
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202402/tapas-drone-system-143319179-16x9_0.jpg?size=826:465" class="h-full w-full object-cover" alt="Drones in Warfare">
          </div>
 
          <!-- 
@@ -160,7 +160,7 @@
         <hr class="border-t-2 my-4 bg-blue-900">     
       <div>
         <div class="flex justify-center">
-          <img class="rounded-lg w-auto h-96" src="https://example.com/drone-warfare-2.jpg" alt="Drones in Action">
+          <img class="rounded-lg w-auto h-96" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202008/UAV_Heron.jpeg?size=600:300" alt="Drones in Action">
         </div>
       </div>
       <hr class="border-t-2 my-4 bg-blue-900">  
