@@ -78,7 +78,7 @@
 
             <h2 class="text-3xl font-semibold text-gray-700 mb-4">Challenges and Future Prospects of Uttam AESA Radar</h2>
             <p class="text-lg mb-4">
-                The Uttam AESA Radar is designed to be integrated into a range of fighter jets, including India’s indigenous <a href="{{ url_for('article_route.show_article', art_id=5a71caea-fceb-11ee-91ea-abd0d23da981) }}"><strong>Tejas Light Combat Aircraft (LCA)</strong></a>. The Tejas program, a significant achievement in itself, will benefit immensely from having a homegrown radar system. Integrating the radar into different platforms, however, is not without its challenges. Each aircraft has specific space and power constraints, and ensuring the radar operates efficiently in these varied environments is a complex task. Additionally, there is a constant need to balance radar performance with the stealth and agility of the aircraft it is fitted to.
+                The Uttam AESA Radar is designed to be integrated into a range of fighter jets, including India’s indigenous <a href="https://arunrathor.pythonanywhere.com/article/5a71caea-fceb-11ee-91ea-abd0d23da981"><strong>Tejas Light Combat Aircraft (LCA)</strong></a>. The Tejas program, a significant achievement in itself, will benefit immensely from having a homegrown radar system. Integrating the radar into different platforms, however, is not without its challenges. Each aircraft has specific space and power constraints, and ensuring the radar operates efficiently in these varied environments is a complex task. Additionally, there is a constant need to balance radar performance with the stealth and agility of the aircraft it is fitted to.
             </p>
 
             <p class="text-lg mb-4">
