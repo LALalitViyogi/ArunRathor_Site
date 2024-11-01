@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link rel="preload" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.css" as="style" crossorigin="anonymous">
+      <link rel="preload" href="{{ pre_image_link }}" as="image" crossorigin="anonymous">
+    <title>
+       VShare: Share Without Constraints, Anyhow, Anywhere, Anytime
+    </title>
+    <meta name="description" content="Effortlessly share non-sensitive data without the hassle of creating an account. Our platform provides a convenient and secure way to exchange information anonymously. Collaborate seamlessly without compromising your privacy.">
+    <meta name="google-site-verification" content="9dCkHSuO6ipyzz6PtcduLHwjmrSLlu6jX3FGMZ52Aq8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.css">
+     <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='favicon.ico')}}">
+</head>
+    <body>
+      <div id="main_content">
+        <div class="min-h-full">
+        <nav id="header_bkg" class="bg-gray-800 fixed top-0 left-0 right-0 z-50">
+          <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
+            <div class="flex h-16 items-center justify-between">
+              <div class="flex items-center">
+                <div id="logo_container" class="flex-shrink-0">
+                  <!--img id="logo_id" class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" fetchpriority="low"-->
+                </div>
+                <div class="hidden md:block">
+                  <div class="ml-10 flex items-baseline space-x-4">
+                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                    <a id="home_link" href="{{url_for('Home')}}" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium md:px-3 py-2">Home</a>
+                    <a id="all_msgs" href="{{url_for('all_msgs')}}" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium md:px-3 py-2">Messages</a>
+                    <a id="product_dash" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium md:px-3 py-2">Products</a>
+                    <a id="project_dash" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium md:px-3 py-2">Projects</a>
+                    <a id="article_dash" href="{{url_for('articles_default')}}" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium md:px-3 py-2">Articles</a>
+                    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium">Services</a>
+                    <!--a id="temp_mails" href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-2 py-1 text-sm font-medium">Quick Mail</a -->
+                  </div>
+                </div>
+              </div>
+              <div class="mr-4">
+                <!-- Mobile Navigation Toggle Button -->
+                <div class="block md:hidden float-right">
+                  <button id="mobile-menu-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+                    <svg class="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M3 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm0 5a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2H4a1 1 0 0 1 0-2zm0 5a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2H4a1 1 0 0 1 0-2z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+                </div>
+                <!-- Side Navigation Menu -->
+                <div id="mobile-menu" class="hidden md:hidden fixed inset-y-0 right-0 w-64 bg-gray-900 shadow-lg z-20">
+                  <button id="mobile-menu-close" class="absolute top-0 right-0 m-4 mr-8 text-white hover:text-gray-300 focus:outline-none">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                  <ul class="mt-6">
+                    <li>
+                      <a id="home_link" href="{{url_for('Home')}}" class="block px-4 py-2 text-white hover:bg-gray-800">Home</a>
+                    </li>
+                    <li>
+                      <a id="all_msgs" href="{{url_for('all_msgs')}}" class="block px-4 py-2 text-white hover:bg-gray-800">Messages</a>
+                    </li>
+                    <li>
+                      <a id="product_dash" href="#" class="block px-4 py-2 text-white hover:bg-gray-800">Products</a>
+                    </li>
+                    <li>
+                      <a id="project_dash" href="#" class="block px-4 py-2 text-white hover:bg-gray-800">Projects</a>
+                    </li>
+                    <li>
+                      <a id="article_dash" href="{{url_for('articles_default')}}" class="block px-4 py-2 text-white hover:bg-gray-800">Articles</a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="hidden md:block">
+                <div class="ml-4 flex items-center md:ml-6">
+                  <button type="button" class="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <span class="sr-only">View notifications</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                    </svg>
+                  </button>
+
+                  <!-- Profile dropdown-->
+                  <div class="relative ml-3">
+                    <div>
+                      <button type="button" class="flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                        <span class="sr-only">Open user menu</span>
+                        <a href="{{url_for('Login')}}" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Login</a>
+                      </button>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+             <!--
+              <div class="-mr-2 flex md:hidden">
+                 Mobile menu button -- >
+                <button type="button" class="inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" aria-controls="mobile-menu" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  < !-- Menu open: "hidden", Menu closed: "block"
+                  <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  -->
+                  <!-- Menu open: "block", Menu closed: "hidden"
+                  <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+
+                </button>
+              </div>
+
+            </div> -->
+          </div>
+
+          <!-- Mobile menu, show/hide based on menu state.
+          <div class="md:hidden" id="mobile-menu">
+            <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3 ">
+              < !-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" - ->
+              <a href="{{url_for('Home')}}" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
+              <!a href="{{url_for('all_msgs')}}" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Files</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
+              <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Reports</a>
+            </div>
+            <div class="border-t border-gray-700 pb-3 pt-4">
+              <div class="flex items-center px-5">
+                <div class="flex-shrink-0">
+                  <img class="h-10 w-10 rounded-full" src="#" alt="">
+                </div>
+                <div class="ml-3">
+                  <div class="text-base font-medium leading-none text-white">Tom Cook</div>
+                  <div class="text-sm font-medium leading-none text-gray-400">tom@example.com</div>
+                </div>
+                <button type="button" class="ml-auto flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                  <span class="sr-only">View notifications</span>
+                  <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                  </svg>
+                </button>
+              </div>
+              < ! --
+              <div class="mt-3 space-y-1 px-2">
+                <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Your Profile</a>
+                <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
+                <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign out</a>
+              </div>
+              -- >
+            </div>
+
+          </div>
+           -->
+        </nav>
+
+        <header class="bg-white shadow">
+          <div class="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-4">
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+          </div>
+        </header>
+        <main>
+              <div id="content_class_manage" class="mx-auto md:max-w-7xl  py-6 sm:px-6 lg:px-6">
+                <!-- Your content -->
+	<div class="flex justify-center">
+	    <div class="w-10/12">
+		<div class="container mx-auto py-12 px-4 lg:px-8">
+		    <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+		        <hr class="border-t-2 border-gray-800">
+		        <div class="my-2">
+		            <h1 id="art_tile" class="text-4xl text-center">
+		                India’s Naval Nuclear Arsenal: Building Deterrence with Advanced Submarine Technology
+		            </h1>
+		        </div>
+		        <hr class="border-t-2 border-gray-800">
+
+		        <div class="text-xl my-2">
+		            <h5>
+		                Author : <span>Defense Insights</span>
+		            </h5>
+		            <h5>
+		                Support : <span>Jeewanlal Foundation</span>
+		            </h5>
+		        </div>
+
+		        <div class="my-4">
+		            <p class="text-lg text-justify">
+		                India's commitment to securing its maritime borders and deterring nuclear threats has led to the development of a robust naval nuclear arsenal, centered around its fleet of nuclear-powered ballistic missile submarines (SSBNs). These submarines are engineered for stealth and endurance, providing a formidable second-strike capability critical to India's strategic defense. This article provides a technical overview of India’s nuclear submarine technology, the propulsion and missile systems on board, and the challenges involved in expanding this complex arsenal.
+		            </p>
+		        </div>
+
+		        <!-- Image 1 -->
+		        <div class="my-8">
+		           <img src="https://images.firstpost.com/uploads/2024/08/NavySubmarine1200PTI-2024-08-61771629f404c21a070982c9a0a48100.jpg?im=FitAndFill=(800,336)" alt="INS Arihant, India's Nuclear Submarine" class="w-full rounded-lg shadow-lg">
+		            <p class="text-sm text-center text-gray-700 mt-2">Figure 1: INS Arihant, India’s indigenous nuclear-powered ballistic missile submarine.</p>
+		        </div>
+
+		        <h2 class="text-3xl font-semibold text-gray-700 mb-4">Technical Overview of India’s Nuclear Submarine Program</h2>
+		        <p class="text-lg mb-4">
+		            India’s naval nuclear capabilities are anchored by the INS Arihant-class submarines, which represent significant advancements in marine nuclear engineering. These SSBNs (Ship Submersible Ballistic Nuclear) are designed to remain submerged for extended durations, enabling stealthy patrols in the Indian Ocean. Nuclear submarines differ from conventional diesel-electric submarines primarily in their propulsion and operational endurance: nuclear propulsion systems do not require refueling or frequent surfacing, which is a tactical advantage for extended deterrent patrols.
+		        </p>
+
+		        <h3 class="text-2xl font-semibold text-gray-600 mb-4">Nuclear Propulsion System</h3>
+		        <p class="text-lg mb-4">
+		            The nuclear propulsion system on board India’s SSBNs, such as the INS Arihant, is powered by a miniature pressurized water reactor (PWR) that uses enriched uranium as fuel. This reactor design provides the immense energy needed to keep the submarine submerged indefinitely, with reactivity controlled by onboard systems. The PWR’s design in Indian SSBNs emphasizes operational safety and sustainability, with technical enhancements to ensure minimal radiation emissions, extended operational cycles, and silent operation, all crucial for stealth.
+		        </p>
+		        <p class="text-lg mb-4">
+		            The propulsion system allows INS Arihant-class submarines to reach speeds of up to 24 knots when submerged, which is essential for evading enemy tracking systems. The acoustic signature of these submarines has been minimized using advanced hull designs and specialized noise-dampening materials, critical for reducing detectability by sonar systems.
+		        </p>
+
+		        <h3 class="text-2xl font-semibold text-gray-600 mb-4">Ballistic Missile Capabilities</h3>
+		        <p class="text-lg mb-4">
+		            India's nuclear submarine arsenal is equipped with nuclear-capable ballistic missiles, adding significant strategic value. The INS Arihant is armed with K-15 Sagarika missiles, which are submarine-launched ballistic missiles (SLBMs) with a range of approximately 750 km. These SLBMs are specifically engineered for underwater launch, utilizing a gas ejection system to propel the missile to the surface before igniting its solid fuel rocket motors for atmospheric and sub-orbital trajectory.
+		        </p>
+		        <p class="text-lg mb-4">
+		            Future variants, such as the planned INS Arighat, are expected to carry the K-4 SLBM, which boasts a range of around 3,500 km. The K-4 missile incorporates multiple independently targetable reentry vehicles (MIRVs), which can hit different targets from a single missile, greatly enhancing strike capability and flexibility. This diversification in strike range enhances India’s deterrence posture, allowing it to project power across the Indian Ocean and beyond.
+		        </p>
+
+		        <!-- Image 2 -->
+		        <div class="my-4">
+		             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikgMC4kmOg-ZqfEtBGkTwRKIzhmNfRnl3QyzwDZO0zJGROFUggAkr-6MpE8jwOZO4cESnVeFfZqLmtdFLbuhIGN227kM6B5x49SSk_XKAZrL8l4wKlpObtkj1otKSQbJ-P8A/s1600/INS+Arihant+at+2009+launch.jpg" alt="INS Arighat Undergoing Trials" class="w-full rounded-lg shadow-lg">
+		        </div>
+		         <!-- Image 2 -->
+		        <div class="my-4">
+		             <img src="https://brahmand.com/newsimages/2938004345e2e6e7d45791.jpg" alt="INS Arighat Undergoing Trials" class="w-full rounded-lg shadow-lg">
+		            <p class="text-sm text-center text-gray-700 mt-2">Figure 2: INS Arighat, India’s second ballistic missile submarine, during sea trials.</p>
+		        </div>
+
+		        <h2 class="text-3xl font-semibold text-gray-700 mb-4">Command, Control, and Communication (C3) Systems</h2>
+		        <p class="text-lg mb-4">
+		            India’s SSBNs are equipped with advanced command, control, and communication (C3) systems, essential for operational readiness and coordination with national command authorities. These systems enable the transmission of secure, encrypted orders for missile launches, even under combat conditions. The C3 architecture is fortified to prevent interference or interception, ensuring the SSBNs remain fully functional in all potential scenarios.
+		        </p>
+		        <p class="text-lg mb-4">
+		            The incorporation of satellite communication links, underwater communication buoys, and high-frequency radio systems supports seamless interaction between the SSBN and Indian military command. These systems ensure that the vessel’s crew can maintain secure communication during submerged operations, reinforcing India’s second-strike capabilities.
+		        </p>
+
+		        <h2 class="text-3xl font-semibold text-gray-700 mb-4">Strategic Deployment and Patrolling Patterns</h2>
+		        <p class="text-lg mb-4">
+		            The strategic value of India's SSBNs lies in their ability to patrol the Indian Ocean while remaining undetected. The INS Arihant-class submarines undertake extended deterrent patrols, capitalizing on the vast, geopolitically significant Indian Ocean region. This operational pattern is intended to ensure a persistent and credible deterrent presence, complicating potential adversaries' strategic calculations.
+		        </p>
+		        <p class="text-lg mb-4">
+		            These submarines are expected to follow bastion-based patrolling strategies, where they operate within secure areas guarded by other naval assets. This approach not only strengthens the survivability of SSBNs but also enables rapid response times if deterrence is required. 
+		        </p>
+
+		        <h3 class="text-2xl font-semibold text-gray-600 mb-4">Challenges in Expanding India’s Naval Nuclear Capabilities</h3>
+		        <p class="text-lg mb-4"><strong>1. Advanced Reactor Technology:</strong> The development of more powerful and compact reactors remains an engineering challenge. These reactors require miniaturization without compromising energy output, which demands cutting-edge technology in nuclear physics and reactor design.</p>
+		        <p class="text-lg mb-4"><strong>2. SLBM Accuracy and Range:</strong> Increasing the range and accuracy of India’s SLBMs requires ongoing research into propulsion and guidance systems. Effective SLBMs must withstand extreme launch conditions, operate over long distances, and deliver payloads with pinpoint accuracy.</p>
+		        <p class="text-lg mb-4"><strong>3. Complex Maintenance and Operational Costs:</strong> Nuclear-powered submarines demand substantial resources for maintenance, crew training, and reactor safety. Unlike conventional submarines, SSBNs have a long life-cycle but high operational costs, requiring sustained government commitment and financial support.</p>
+
+		        <h2 class="text-3xl font-semibold text-gray-700 mb-4">Future Prospects: Towards a More Advanced SSBN Fleet</h2>
+		        <p class="text-lg mb-4">
+		            Looking ahead, India aims to develop additional SSBNs with extended ranges and enhanced stealth capabilities. The upcoming Arihant-class SSBNs are likely to incorporate advanced technology such as quiet propulsion, improved reactor designs, and extended-range SLBMs. This fleet expansion will position India as a formidable maritime power with a credible deterrent presence in the Indo-Pacific.
+		        </p>
+
+		        <h2 class="text-3xl font-semibold text-gray-700 mb-4">Conclusion</h2>
+		        <p class="text-lg mb-4">
+		            India’s advancements in naval nuclear technology reflect a commitment to ensuring strategic deterrence through technological sophistication. The INS Arihant and its successors symbolize India’s growing technical expertise and strategic foresight, providing the nation with a credible nuclear deterrent while reinforcing its regional standing in a multipolar world.
+		        </p>
+		    </div>
+		</div>
+	    </div>
+	</div>
+
+   
+              </div>
+            </main>
+          </div>
+
+    </body>
+
+
+</html>
+
